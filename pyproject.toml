@@ -1,0 +1,20 @@
+[project]
+name = "llmchessarena"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nonomura", email = "kanakana.nono1224@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "llama-cpp-python>=0.3.12",
+    "python-chess>=1.999",
+]
+
+[project.scripts]
+llmchessarena = "llmchessarena.game:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
