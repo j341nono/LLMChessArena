@@ -1,4 +1,4 @@
 
 ```
-curl -sSL https://raw.githubusercontent.com/j341nono/LLMGusser/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/j341nono/LLMChessArena/main/install.sh | bash
 ```
